@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Silkscreen:wght@400;700&display=swap');
+
+*{
+  font-family:'Courier New', Courier, monospace;
+  background-color: #121227;
+  color: rgb(255, 217, 217);
+  overflow-x: hidden;
+}
+
+
+main{
+   text-align: center;
+}
+
+section{
+  text-align: left;
+}
+
+
+section > p{
+  color: rgb(209, 213, 255)
+}
+
+.nav-bar{
+  padding: 10px;
+}
+
+
+.nav-bar h1{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+#nav-bar-list {
+  margin: 0;
+  padding: 2px;
+  float: right;
+}
+
+#nav-bar-list > li{
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover{
+  color: rgb(156, 189, 255);
+}
+
+
+.hero-image{
+  width: 100vw;
+  height: 80vh;
+}
+
+.intro-text{
+  margin-bottom: 40px;
+  color: rgb(144, 144, 255);
+}
+
+
+
+.project-card{
+  border: 2px dashed rgb(255, 217, 217);
+  padding: 15px 15px;
+  margin: 5px 5px;
+  text-align: center;
+  display: inline-block;
+}
+
+button {
+  padding: 5px 5px;
+  font-family: "silkscreen", serif;
+}
+
+button:hover{
+  border: 2px outset rgb(255, 217, 217);
+  cursor: pointer;
+  color: rgb(156, 189, 255);
+}
+
+#contact > .contact-form-container{
+  min-height: 40vh;
+  /* width: 100vw; */
+  background: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWx1ZXNwdXh0NGlseXMzeHIyZ2c2cW56dHluNmp4YzF1Z3NibzRyeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LXxWO0pgGEma8W40A9/giphy.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: 0%;
+  overflow: hidden;
+}
+
+.contact-form{
+  background-color: rgba(194, 198, 255, 0.636);
+  position: absolute;
+  height: 100%;
+  padding: 3px;
+  width: 100%;
+}
+
+
+.contact-form > label, .contact-form > input{
+  background-color: transparent;
+  color: #121227;
+  font-weight: bold;
+  display: block;
+}
+
+.contact-form > input{
+    border:  4px solid #121227 ;
+    width: 15vw;
+}
+
+.contact-form >input:focus{
+  background-color: aliceblue;
+}
+
+.contact-form > textarea{
+  background-color: rgba(15, 35, 71, 0.812);
+  width: 280px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+footer{
+  text-align: center;
+  margin: 5px 5px;
+  font-weight: bold;
+}
+
+
+
+.silkscreen-regular {
+  font-family: "Silkscreen", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.silkscreen-bold {
+  font-family: "Silkscreen", serif;
+  font-weight: 700;
+  font-style: normal;
+}
